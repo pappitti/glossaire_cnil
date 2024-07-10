@@ -1,0 +1,412 @@
+
+<h2>Algorithme 
+
+Un algorithme est la description d'une suite d'étapes permettant d'obtenir un résultat à partir d'éléments fournis en entrée. Par exemple, une recette de cuisine est un algorithme permettant d'obtenir un plat à partir de ses ingrédients! Dans le monde de plus en plus numérique dans lequel nous vivons, les algorithmes mathématiques permettent de combiner les informations les plus diverses pour produire une grande variété de résultats : simuler l'évolution de la propagation de la grippe en hiver, recommander des livres à des clients sur la base des choix déjà effectués par d'autres clients, comparer des images numériques de visages ou d'empreintes digitales, piloter de façon autonome des automobiles ou des sondes spatiales, etc.
+Pour qu'un algorithme puisse être mis en œuvre par un ordinateur, il faut qu'il soit exprimé dans un langage informatique, sous la forme d'un logiciel (souvent aussi appelé « application »). Un logiciel combine en général de nombreux algorithmes : pour la saisie des données, le calcul du résultat, leur affichage, la communication avec d'autres logiciels, etc.
+Certains algorithmes ont été conçus de sorte que leur comportement évolue dans le temps, en fonction des données qui leur ont été fournies. Ces algorithmes « auto-apprenants » relèvent du domaine de recherche des systèmes experts et de l'« intelligence artificielle ». Ils sont utilisés dans un nombre croissant de domaines, allant de la prédiction du trafic routier à l'analyse d'images médicales. 
+
+
+<h2>Annotation (IA)
+
+L’annotation est le procédé par lequel les données sont décrites manuellement afin d’être caractérisées, par exemple en attribuant à une image de chien l’étiquette correspondante.
+On parle aussi de vérité terrain ou groundtruth.
+
+
+<h2>Apprentissage actif 
+
+Cette technique fait intervenir un opérateur pendant le processus d’apprentissage pour lui demander de qualifier certaines données. Il s’agit d’une méthode d’apprentissage semi-supervisée. 
+
+
+<h2>Apprentissage auto-supervisé
+
+L’apprentissage auto-supervisé est une méthode d’apprentissage automatique (« machine learning ») où un modèle extrait de l’information à partir de données non étiquetées, en créant ses propres tâches de supervision : l’algorithme sépare les données en différentes parties, utilisant certaines pour créer des prédictions et d’autres pour évaluer ces prédictions, s’améliorant sans supervision initiale.
+
+
+<h2>Apprentissage automatique
+
+L’apprentissage automatique (machine learning en anglais) est un champ d’étude de l’intelligence artificielle qui vise à donner aux machines la capacité d’« apprendre » à partir de données, via des modèles mathématiques. Plus précisément, il s’agit du procédé par lequel les informations pertinentes sont tirées d’un ensemble de données d’entraînement.
+Le but de cette phase est l’obtention des paramètres d’un modèle qui atteindront les meilleures performances, notamment lors de la réalisation de la tâche attribuée au modèle. Une fois l’apprentissage réalisé, le modèle pourra ensuite être déployé en production.
+
+
+<h2>Apprentissage continu
+
+L’apprentissage continu est la capacité d’un système à s’améliorer et à s’adapter à mesure qu’il intègre de nouvelles données, y compris pendant sa mise en service. Dans le cas de l’apprentissage continu, la phase d’apprentissage du système se poursuit pendant le déploiement du modèle.
+
+
+<h2>Apprentissage fédéré
+
+L’apprentissage fédéré est un paradigme d'apprentissage dans lequel plusieurs entités entraînent collaborativement un modèle d’IA sans mise en commun de leurs données respectives. En pratique, les entités impliquées dans l'apprentissage envoient les modèles appris sur leurs données locales à un centre orchestrateur afin de consolider le modèle global. Ce paradigme s'oppose à l'apprentissage centralisé dans lequel toutes les données sont transmises à un serveur central chargé d'exécuter l'apprentissage du modèle.
+
+
+<h2>Apprentissage non supervisé
+
+L’apprentissage non supervisé est un procédé d’apprentissage automatique dans lequel l’algorithme utilise un jeu de données brutes et obtient un résultat en se fondant sur la détection de similarités entre certaines de ces données.
+
+
+<h2>Apprentissage par renforcement
+
+L’apprentissage par renforcement est un procédé d’apprentissage automatique consistant, pour un système autonome, à apprendre les actions à réaliser, à partir d'expériences, de façon à optimiser une récompense quantitative au cours du temps.
+Le système est plongé au sein d'un environnement, et prend ses décisions en fonction de son état courant. En retour, l'environnement procure une récompense, qui peut être positive ou négative.
+Au fil des expériences, le système cherche un comportement décisionnel optimal, en ce sens qu'il maximise la somme des récompenses au cours du temps.
+
+
+<h2>Apprentissage par renforcement et rétroaction humaine
+
+Approche d’apprentissage par renforcement qui utilise les commentaires et les évaluations d’utilisateurs humains pour guider l’apprentissage d’un modèle d’intelligence artificielle. Ce type d'apprentissage est utilisé dans les générateurs de texte fondés sur les grands modèles de langue.
+
+
+<h2>Apprentissage par transfert 
+
+En apprentissage automatique, l’apprentissage par transfert consiste à utiliser les connaissances acquises lors de l’apprentissage d’une tâche pour améliorer les performances sur une tâche analogue, généralement lorsque les données d’apprentissage sont limitées pour cette nouvelle tâche.
+Par exemple, un modèle d’apprentissage profond entrainé sur une grande base de données images comme ImageNet peut peut être adapté, par apprentissage par transfert, à la détection de tumeurs cancéreuses dans des images médicales.
+
+
+<h2>Apprentissage profond (deep learning)
+
+L’apprentissage profond est un procédé d’apprentissage automatique utilisant des réseaux de neurones possédant plusieurs couches de neurones cachées. Ces algorithmes possédant de très nombreux paramètres, ils demandent un nombre très important de données afin d’être entraînés.
+
+
+<h2>Apprentissage supervisé
+
+L’apprentissage supervisé est un procédé d’apprentissage automatique dans lequel l’algorithme s’entraîne à une tâche déterminée en utilisant un jeu de données assorties chacune d’une annotation indiquant le résultat attendu.
+
+
+<h2>Attaque par empoisonnement (data poisoning attack)
+
+Les attaques par empoisonnement visent à modifier le comportement du système d’IA en introduisant des données corrompues en phase d’entraînement (ou d’apprentissage). Elles supposent que l’attaquant soit en mesures de soumettre des données à utiliser lors de l’entraînement du système d’IA.
+
+
+<h2>Attaque par exemples contradictoires (adversarial examples attack)
+
+Les attaques par exemples contradictoires visent à soumettre des entrées malicieuses ou corrompues au système d’IA en phase de production.
+Exemple : une image qui aurait été modifiée de façon à tromper un classifieur d’image et ainsi attribuer à une image de panda, l’étiquette de singe.
+Ces entrées apparaissent, pour un humain, quasiment identiques à leurs copies non altérées.
+À la suite de cette attaque, qui peut être vue comme l’équivalent d’une illusion d’optique, le comportement du système d’IA est profondément altéré.
+
+
+<h2>Attaque par exfiltration de modèle (model evasion attack)
+
+Les attaques par exfiltration de modèle visent à permettre le vol d’un modèle d’IA et/ou de ses paramètres et hyperparamètres. Le modèle constitue un actif de grande valeur pour un système d’IA.
+
+
+<h2>Attaque par inférence d'appartenance (membership inference attack)
+
+Les attaques par inférence d'appartenance visent à permettre à un attaquant d’acquérir des connaissances sur les données utilisées pour la production du modèle d’IA.
+En pratique, il s’agit de déterminer si des données relatives à un individu ont été utilisées lors de la phase d’entraînement (ou d’apprentissage). Cette connaissance peut permettre à l’attaquant de déduire des informations concernant une personne (par exemple déterminer s’il est atteint d’une pathologie).
+
+
+<h2>Attaque par inversion de modèle (model inversion attack)
+
+Les attaques par inversion visent à reconstruire les données ayant servi pour l’apprentissage du système. En pratique, les attaques par inversion sont menées en soumettant un grand nombre d’entrées au système d’IA et en observant les sorties produites. On utilise, de façon équivalente, le terme d’attaque par extraction de données (data extraction attacks).
+
+
+<h2>Augmentation de données (IA)
+
+Dans le domaine de l'intelligence artificielle, le processus d’augmentation de données accroît la quantité de données d'entraînement par la création de nouvelles données à partir des données existantes.
+Cette augmentation peut être réalisée par différentes opérations, par exemple, dans le cas d’images, par translation, rotation, ajout de bruit, etc.
+
+
+Bulle de filtre
+
+Phénomène principalement observé sur les réseaux sociaux où les algorithmes de recommandation – qui alimentent par exemple les fils d’actualité des publications susceptibles d’intéresser les utilisateurs– peuvent parfois ne proposer que des contenus similaires entre eux.
+Ce phénomène intervient lorsqu’un algorithme est paramétré pour ne proposer que des résultats correspondant aux goûts connus d’un utilisateur, il ne sortira alors jamais des catégories connues.
+
+
+Calcul multipartite sécurisé
+
+Le calcul multipartite sécurisé (en anglais, « secure multi-party computation ») est une branche de la cryptographie permettant à plusieurs entités (ou parties) de calculer conjointement une fonction sur leurs données respectives, sans que celles-ci ne soient divulguées aux autres participants et tout en étant assuré que le résultat est exact.
+
+
+Caractéristique (IA)
+
+Dans le domaine de l’intelligence artificielle, la caractéristique (feature en anglais) est la variable utilisée pour représenter une propriété définie d'une entité ou d'un objet.
+Il peut s’agir d’informations relatives à la forme, la texture, ou encore à la couleur d’une image. Dans le cas d’un fichier audio, à la hauteur des sons, au timbre ou au tempo.
+
+
+Chiffrement homomorphe
+
+Le chiffrement homomorphe est une technique de cryptographie permettant de réaliser des opérations sur des données chiffrées sans que celles-ci aient à être déchiffrées. Le résultat de ces opérations reste sous forme chiffrée et ne peut être déchiffré que par les destinataires autorisés (détenant la clé de déchiffrement). Cette technique permet ainsi aux participants d’un calcul de garder leurs données confidentielles au cours d’un calcul.
+
+
+Classification (IA)
+
+La classification est une méthode de catégorisation qui consiste à attribuer une classe ou catégorie à une entrée qui lui est soumise en fonction de sa proximité à la classe en question selon des critères bien choisis.
+Exemple : un système d’IA entraîné pour la reconnaissance d’images d’animaux utilise des techniques de classification : oiseaux, chiens, poissons...
+
+
+Confidentialité différentielle
+
+La confidentialité différentielle désigne une propriété mathématique assurant que la présence ou l’absence d’un individu dans une base de données n’affecte pas le résultat obtenu par un processus d’anonymisation appliqué à celle-ci. Pour l’atteindre, l’ajout d’un bruit spécifique est généralement nécessaire (c’est-à-dire une perturbation des données). Cela implique de détériorer l’utilité et la qualité des données.
+
+
+Contrôle itératif de l’apprentissage
+
+Cette technique vise à étudier l’impact de chaque donnée sur le fonctionnement du modèle. On parle également de défense RONI (pour Reject On Negative Impact en anglais) permettant de supprimer du jeu d’apprentissage les données ayant un impact négatif sur la précision du modèle.
+
+
+Couche de neurones
+
+Organisation des neurones dans un réseau. Il n'y a pas de connexion entre les neurones d'une même couche : les connexions ne se font qu'avec les neurones de la couche suivante.
+Généralement, chaque neurone d'une couche est lié avec tous les neurones de la couche en aval et celle-ci uniquement.
+On appelle couche d'entrée l’ensemble des neurones d'entrée et couche de sortie l’ensemble des neurones de sortie.
+Les couches intermédiaires n'ont pas de contact avec l'extérieur et sont donc nommées couches cachées.
+
+
+Critère d’arrêt (IA)
+
+Élément de contrôle de l’évolution d’un algorithme d’apprentissage automatique qui permet, s’il est atteint, d’arrêter le processus itératif.
+Il peut prendre différentes formes : la fonction de perte (qui permet de calculer l’erreur de prédiction) a suffisamment décru, le nombre d’itérations fixé est atteint, etc.
+
+
+Dérive des données
+
+Variation des données utilisées à l'étape de production par rapport aux données qui ont été utilisées pour tester et valider le modèle avant son déploiement. Plusieurs facteurs peuvent entraîner cette dérive : des modifications de processus en amont, des problèmes de qualité des données, de soudains changements dans les données, etc.
+
+
+Dérive du modèle
+
+La dérive du modèle est la perte d’adéquation entre un modèle et la tâche qu’il doit accomplir. Cette dérive peut résulter d’un réapprentissage du modèle ou d’une évolution de l’environnement dans lequel il s’applique (domaine d’emploi).
+
+
+Désapprentissage machine
+
+Le désapprentissage machine est une technique liée à l’apprentissage automatique visant à faire disparaître une information des connaissances apprises par un modèle d’IA. L’objectif de ces techniques est de supprimer une information contenue dans un modèle sans avoir à ré-entraîner ce dernier.
+Pour en savoir plus
+
+
+Domaine d’emploi (IA)
+
+Dans le domaine de l’intelligence artificielle, le domaine d’emploi est la description de l’environnement et de la population visée par le procédé d’apprentissage automatique.
+
+
+Donnée brute (IA)
+
+Dans le domaine de l’intelligence artificielle, une donnée brute est une donnée n’ayant subi aucune transformation depuis son observation initiale.
+
+
+Donnée de sortie (IA)
+
+Dans le domaine de l’intelligence artificielle, une donnée de sortie est une valeur représentant tout ou partie de l’opération effectuée par le système d’IA à partir des données d’entrée.
+
+
+Donnée d’entrée (IA)
+
+Dans le domaine de l’intelligence artificielle, une donnée d’entrée est une donnée utilisée pour l’apprentissage automatique ou la prise de décision du système d’IA (en phase de production).
+
+
+Échantillon (IA)
+
+Dans le domaine de l’intelligence artificielle, l’échantillon est une fraction représentative d'une population ou d'un univers statistique.
+
+
+Ensemble de test (IA)
+
+Jeu de données utilisé lors de la phase de test.
+
+
+Ensemble de validation (IA)
+
+Jeu de données utilisé lors de la phase de validation.
+
+
+Ensemble d’entraînement/d’apprentissage
+
+Jeu de données (texte, sons, images, listes, etc.) utilisé lors de la phase d’entrainement / d’apprentissage : le système s’entraîne sur ces données pour effectuer la tâche attendue de lui.
+
+
+Entraînement (ou apprentissage)
+
+L’entraînement est le processus de l’apprentissage automatique pendant lequel le système d’intelligence artificielle construit un modèle à partir de données.
+
+
+Environnement d’exécution de confiance
+
+Les Trusted Execution Environnement, ou environnement d’exécution de confiance, sont des zones sécurisées et isolées des autres environnements d’exécution situés dans un processeur. Les TEE garantissent que des données confidentielles restent stockées, traitées et protégées dans un environnement de confiance.
+Pour en savoir plus
+
+
+Estimation bayésienne
+
+L’estimation ou inférence bayésienne s’appuie sur un théorème énoncé par le mathématicien Thomas Bayes. Ce théorème donne une méthode pour calculer la probabilité d’un phénomène grâce à la connaissance de certaines informations. L’estimation bayésienne est donc la méthode qui s’appuie sur ce raisonnement.
+Exemple : sachant d’une part que mes chaussures sont peu adhérentes, et d’autre part qu’il a plu, le risque de glisser lors de mon trajet au travail ce matin est élevé.
+
+
+Estimation de poses
+
+Technique de vision par ordinateur (« computer vision ») qui permet de détecter la posture d’une personne sur une image ou une vidéo, afin d’en extraire un modèle biomécanique.
+
+
+Explicabilité (IA)
+
+Dans le domaine de l'intelligence artificielle, l’explicabilité est la capacité de mettre en relation et de rendre compréhensible les éléments pris en compte par le système d’IA pour la production d’un résultat.
+Il peut s’agir, par exemple, des variables d’entrée et de leurs conséquences sur la prévision d’un score, et ainsi sur la décision.
+Les explications doivent être adaptées au niveau de compréhension de la personne auxquelles elles sont destinées.
+
+
+Extraction de caractéristiques (feature extraction)
+
+Dans le domaine de l’intelligence artificielle, l’extraction de caractéristiques est l’étape au cours de laquelle sont induites depuis des données brutes (fichier son, image, document textuel, tableau numérique, etc.) des caractéristiques (features) sur lesquelles le système d’IA doit se reposer pour effectuer la tâche pour laquelle il est programmé.
+La définition de ces caractéristiques et leur nature discriminante sont essentielles.
+
+
+Few shot learning
+
+Méthode d’apprentissage automatique où un modèle est entraîné à classer des items en fonction de leur similarité à partir de très peu de données.
+
+
+Fonction de perte ou de coût (loss function)
+
+Dans le domaine de l’intelligence artificielle, la fonction de perte ou de coût est la quantification de l’écart entre les prévisions du modèle et les observations réelles du jeu de donnée utilisé pendant l’entraînement.
+La phase d’entraînement vise à trouver les paramètres du modèle qui permettront de minimiser cette fonction.
+
+
+Fonction d’activation
+
+Dans le domaine de l’intelligence artificielle, la fonction d’activation peut être vu comme l’équivalent du « potentiel d'activation » qu’on retrouve dans les neurones biologiques.
+Cette fonction détermine si un neurone artificiel doit être activé ou pas et, dans le premier cas, le degré de cette activation.
+Il existe plusieurs fonctions apportant chacune des comportements différents (sigmoïde, tangente hyperbolique, ReLU, etc.).
+
+
+Forêts aléatoires (random forests)
+
+Les forêts aléatoires sont une méthode d'apprentissage automatique ensembliste, se basant sur de multiples arbres de décision entraînés sur des sous-ensembles de données légèrement différents.
+
+
+Gabarit facial
+
+En matière de reconnaissance faciale, un « gabarit » désigne les mesures qui sont mémorisées lors de l'enregistrement des caractéristiques d’un visage. Les données extraites pour constituer ce gabarit sont des données biométriques au sens du RGPD (article 4-14).
+
+
+Gradient
+
+Le gradient est, en mathématiques, un vecteur représentant la variation d’une fonction au voisinage d’un point donné (en pratique, lorsqu’on dessine une courbe, plus le gradient est élevé, plus la « pente » de la courbe est forte).
+Appliqué au cas de l’apprentissage d’un modèle d’IA, le gradient est utilisé pour mettre en œuvre l’algorithme de descente de gradient (ou algorithme de la plus forte pente). Ce dernier permet d’obtenir un résultat optimal selon certains critères (par exemple : minimisation d’une fonction de perte), de manière itérative, c’est-à-dire par une succession d’étapes.
+Différentes stratégies existent pour réaliser la descente de gradient qui mobilisent des ensembles de données différents (batch gradient descent, mini-batch gradient descent, stochastic gradient descent, etc.).
+
+
+Hyperparamètre
+
+Élément indépendant de l’apprentissage tels que le nombre de nœuds et la taille des couches cachées du réseau de neurones, l’initialisation des poids, le coefficient d’apprentissage, la fonction d’activation, etc.
+
+
+Intelligence artificielle
+
+L’intelligence artificielle est un procédé logique et automatisé reposant généralement sur un algorithme et en mesure de réaliser des tâches bien définies. Pour le Parlement européen, constitue une intelligence artificielle tout outil utilisé par une machine afin de « reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité ». Plus précisément, la Commission européenne considère que l’IA regroupe :
+
+
+Modèle (IA)
+
+Le modèle d'IA est la construction mathématique générant une déduction ou une prédiction à partir de données d’entrée. Le modèle est estimé à partir de données annotées lors de la phase d’apprentissage (ou d’entraînement) du système d’IA.
+
+
+Modèle de langage
+
+Modèle statistique de la distribution d’unité linguistiques (par exemple : lettres, phonèmes, mots) dans une langue naturelle. Un modèle de langage peut par exemple prédire le mot suivant dans une séquence de mots. On parle de modèles de langage de grande taille ou « Large Language Models » (LLM) en anglais pour les modèles possédant un grand nombre de paramètres (généralement de l'ordre du milliard de poids ou plus) comme GPT-3, BLOOM, Megatron NLG, Llama ou encore PaLM.
+
+
+Modèle discriminatif
+
+Modèle capable de réaliser une prédiction quant à l'appartenance à une classe pour des données nouvelles sur la base d'un apprentissage réalisé auparavant sur un jeu de données d’entraînement.
+
+
+Modèle génératif
+
+Modèle défini par opposition à un modèle discriminatif. Il permet à la fois de générer de nouveaux exemples à partir des données d'entraînement et d'évaluer la probabilité qu'un nouvel exemple provienne ou ait été généré à partir des données d'entraînement.
+
+
+Neurone artificiel
+
+Un neurone artificiel fonctionne d’une manière inspirée de celle d’un neurone biologique : un nœud d'un réseau de plusieurs neurones reçoit généralement plusieurs valeurs d'entrée et génère une valeur de sortie.
+Le neurone calcule la valeur de sortie en appliquant une fonction d'activation à une somme pondérée des valeurs d'entrée.
+
+
+Ontologie (IA)
+
+En informatique, une ontologie est la modélisation d’un ensemble de données par des concepts et relations issues de connaissances dans un domaine donné (par exemple, géographie, médecine, agriculture, etc.).
+
+
+Paramètre (IA)
+
+Dans le domaine de l'intelligence artificielle, le paramètre est la propriété apprise des données utilisées pour l’entraînement (par exemple le poids de chaque neurone d’un réseau).
+
+
+Partitionnement de données
+
+Le partitionnement de données (clustering en anglais) est une méthode ayant pour but de diviser un ensemble de données en différents sous-ensembles homogènes, c’est-à-dire partageant des caractéristiques communes.
+Ces caractéristiques reposent sur des critères de proximité définis en introduisant la notion de distance entre les objets.
+
+
+Reconnaissance d’entités nommées
+
+En anglais « Named-entity recognition » (NER), sous-tâche d’extraction d’informations qui cherche à localiser et classifier les mentions d’entités nommées dans du texte non structuré en catégories prédéfinies, emplacements, codes médicaux, expressions de temps, quantités, valeurs monétaires, pourcentages, etc.
+
+
+Réduction de dimension ou dimensionnalité
+
+Méthode permettant de diminuer la quantité d’information en ne conservant que le strict nécessaire, permettant ainsi d'obtenir plus d'efficacité en termes de résultats et de temps d'analyse.
+Cette réduction de l’information utile peut se faire par sélection des caractéristiques les plus pertinentes ou par création de nouvelles caractéristiques plus appropriées que celles de départ.
+
+
+Régression
+
+La régression est un ensemble de méthodes d’analyse statistique permettant d’approcher une variable à partir d’autres qui lui sont corrélées. En apprentissage automatique, on distingue les problèmes de régression des problèmes de classification. Ainsi, on considère que les problèmes de prédiction d'une variable quantitative sont des problèmes de régression tandis que les problèmes de prédiction d'une variable qualitative sont des problèmes de classification.
+
+
+Réseau de neurones artificiels (artificial neural network)
+
+Dans le domaine de l’intelligence artificielle, un réseau de neurones artificiels est un ensemble organisé de neurones interconnectés permettant la résolution de problèmes complexes tels que la vision par ordinateur ou le traitement du langage naturel.
+Il s’agit d’un type particulier d’algorithmes d’apprentissage automatique (comme les machines à vecteur de support (SVM en anglais), arbres de décision, K plus proches voisins, etc.) caractérisés par un grand nombre de couches de neurones, dont les coefficients de pondération sont ajustés au cours d’une phase d’entraînement (apprentissage profond).
+Il existe de nombreux type de réseaux de neurones artificiels tels que les réseaux de neurones récurrents, les auto-encodeurs, les réseaux transformeurs ou encore les réseaux antagonistes génératifs (generative adversarial networks).
+
+
+Robustesse (IA)
+
+Dans le domaine de l’intelligence artificielle, la résilience est la capacité du système à maintenir sa conformité à des exigences de performance et/ou de sécurité en présence de données d’entrée extérieures à son domaine d’emploi (par exemple en raison d’un défaut sur un capteur).
+
+
+Segmentation des données
+
+La segmentation des données est une méthode permettant la division d’un corpus de données en plusieurs ensembles (par exemple d’entraînement, de validation et de test), soit à partir de critères objectifs (date, âge, etc.) soit de manière aléatoire.
+
+
+Surapprentissage (overfitting)
+
+Dans le domaine de l’intelligence artificielle, le surapprentissage entraîne un modèle qui correspond trop précisément à une collection particulière de données utilisées pour l’entrainement. Cette analyse risque de ne pas correspondre à des données utilisées en phase de production et donc de ne pas permettre une utilisation fiable du système d’IA.
+
+
+Système d’IA à usage général
+
+Un système d’IA à usage général peut être utilisé et adapté à un large éventail d'applications pour lesquelles il n'a pas été conçu intentionnellement et spécifiquement. Un tel système est destiné à exécuter des fonctions génériques telles que la reconnaissance d'images et de paroles, la génération d'images audio et vidéo, la détection de formes, la réponse à des questions, la traduction, etc.
+
+
+Taux d’apprentissage (learning rate)
+
+Dans le domaine de l’intelligence artificielle, le taux d’apprentissage est le facteur multiplicatif appliqué au gradient. À chaque itération, l'algorithme de descente de gradient multiplie le taux d'apprentissage par le gradient.
+Le taux d'apprentissage est un hyperparamètre qui joue sur la rapidité de la descente de gradient : un nombre d’itérations plus ou moins important est nécessaire avant que l’algorithme ne converge, c’est-à-dire qu’un apprentissage optimal du réseau soit réalisé.
+
+
+Test (IA)
+
+Dans le domaine de l’intelligence artificielle, le test est un processus consistant à évaluer les performances d’un système et à rechercher des erreurs liées à l’exécution d’un algorithme ou d’un programme en s’appuyant sur des jeux de données d’entrée n’ayant pas été utilisés lors de la phase d’entraînement.
+
+
+Traitement automatique de la parole
+
+Ensemble de disciplines dont l'objectif est la captation, la transmission, l'identification et la synthèse de la parole. Ces disciplines rassemblent notamment la reconnaissance de la parole, la synthèse de la parole, l'identification du locuteur ou encore la vérification du locuteur.
+
+
+Traitement automatique du langage naturel (natural language processing ou NLP)
+
+Le traitement automatique du langage naturel est un domaine multidisciplinaire impliquant la linguistique, l'informatique et l'intelligence artificielle.
+Il vise à créer des outils de capable d’interpréter et de synthétiser du texte pour diverses applications.
+
+
+Validation (IA)
+
+Dans le domaine de l’intelligence artificielle, la validation est un processus consistant à expérimenter, observer et optimiser (en modifiant les hyperparamètres notamment) le comportement du système lors de son exécution. Elle permet de s'assurer, dans le domaine d’emploi, de l'adéquation des données de sortie avec les résultats attendus.
+
+
+Vision par ordinateur (computer vision)
+
+La vision par ordinateur est une branche de l'intelligence artificielle dont le principal but est de permettre à une machine d'analyser et traiter une ou plusieurs images ou vidéos prises par un système d'acquisition.
+

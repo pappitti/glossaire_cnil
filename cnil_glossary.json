@@ -1,0 +1,302 @@
+[
+    {
+        "term": "\nAlgorithme \n",
+        "definition": "Un algorithme est la description d'une suite d'\u00e9tapes permettant d'obtenir un r\u00e9sultat \u00e0 partir d'\u00e9l\u00e9ments fournis en entr\u00e9e. Par exemple, une recette de cuisine est un algorithme permettant d'obtenir un plat \u00e0 partir de ses ingr\u00e9dients! Dans le monde de plus en plus num\u00e9rique dans lequel nous vivons, les algorithmes math\u00e9matiques permettent de combiner les informations les plus diverses pour produire une grande vari\u00e9t\u00e9 de r\u00e9sultats : simuler l'\u00e9volution de la propagation de la grippe en hiver, recommander des livres \u00e0 des clients sur la base des choix d\u00e9j\u00e0 effectu\u00e9s par d'autres clients, comparer des images num\u00e9riques de visages ou d'empreintes digitales, piloter de fa\u00e7on autonome des automobiles ou des sondes spatiales, etc.\nPour qu'un algorithme puisse \u00eatre mis en \u0153uvre par un ordinateur, il faut qu'il soit exprim\u00e9 dans un langage informatique, sous la forme d'un logiciel (souvent aussi appel\u00e9 \u00ab application \u00bb). Un logiciel combine en g\u00e9n\u00e9ral de nombreux algorithmes : pour la saisie des donn\u00e9es, le calcul du r\u00e9sultat, leur affichage, la communication avec d'autres logiciels, etc.\nCertains algorithmes ont \u00e9t\u00e9 con\u00e7us de sorte que leur comportement \u00e9volue dans le temps, en fonction des donn\u00e9es qui leur ont \u00e9t\u00e9 fournies. Ces algorithmes \u00ab auto-apprenants \u00bb rel\u00e8vent du domaine de recherche des syst\u00e8mes experts et de l'\u00ab intelligence artificielle \u00bb. Ils sont utilis\u00e9s dans un nombre croissant de domaines, allant de la pr\u00e9diction du trafic routier \u00e0 l'analyse d'images m\u00e9dicales.\u00a0"
+    },
+    {
+        "term": "\nAnnotation (IA)\n",
+        "definition": "L\u2019annotation est le proc\u00e9d\u00e9 par lequel les donn\u00e9es sont d\u00e9crites manuellement afin d\u2019\u00eatre caract\u00e9ris\u00e9es, par exemple en attribuant \u00e0 une image de chien l\u2019\u00e9tiquette correspondante.\nOn parle aussi de v\u00e9rit\u00e9 terrain ou groundtruth."
+    },
+    {
+        "term": "\nApprentissage actif \n",
+        "definition": "Cette technique fait intervenir un op\u00e9rateur pendant le processus d\u2019apprentissage pour lui demander de qualifier certaines donn\u00e9es. Il s\u2019agit d\u2019une m\u00e9thode d\u2019apprentissage semi-supervis\u00e9e.\u00a0"
+    },
+    {
+        "term": "\nApprentissage auto-supervis\u00e9\n",
+        "definition": "L\u2019apprentissage auto-supervis\u00e9 est une m\u00e9thode d\u2019apprentissage automatique (\u00ab\u00a0machine learning\u00a0\u00bb) o\u00f9 un mod\u00e8le extrait de l\u2019information \u00e0 partir de donn\u00e9es non \u00e9tiquet\u00e9es, en cr\u00e9ant ses propres t\u00e2ches de supervision\u00a0: l\u2019algorithme s\u00e9pare les donn\u00e9es en diff\u00e9rentes parties, utilisant certaines pour cr\u00e9er des pr\u00e9dictions et d\u2019autres pour \u00e9valuer ces pr\u00e9dictions, s\u2019am\u00e9liorant sans supervision initiale."
+    },
+    {
+        "term": "\nApprentissage automatique\n",
+        "definition": "L\u2019apprentissage automatique (machine learning en anglais) est un champ d\u2019\u00e9tude de l\u2019intelligence artificielle qui vise \u00e0 donner aux machines la capacit\u00e9 d\u2019\u00ab\u00a0apprendre\u00a0\u00bb \u00e0 partir de donn\u00e9es, via des mod\u00e8les math\u00e9matiques. Plus pr\u00e9cis\u00e9ment, il s\u2019agit du proc\u00e9d\u00e9 par lequel les informations pertinentes sont tir\u00e9es d\u2019un ensemble de donn\u00e9es d\u2019entra\u00eenement.\nLe but de cette phase est l\u2019obtention des param\u00e8tres d\u2019un mod\u00e8le qui atteindront les meilleures performances, notamment lors de la r\u00e9alisation de la t\u00e2che attribu\u00e9e au mod\u00e8le. Une fois l\u2019apprentissage r\u00e9alis\u00e9, le mod\u00e8le pourra ensuite \u00eatre d\u00e9ploy\u00e9 en production."
+    },
+    {
+        "term": "\nApprentissage continu\n",
+        "definition": "L\u2019apprentissage continu est la capacit\u00e9 d\u2019un syst\u00e8me \u00e0 s\u2019am\u00e9liorer et \u00e0 s\u2019adapter \u00e0 mesure qu\u2019il int\u00e8gre de nouvelles donn\u00e9es, y compris pendant sa mise en service. Dans le cas de l\u2019apprentissage continu, la phase d\u2019apprentissage du syst\u00e8me se poursuit pendant le d\u00e9ploiement du mod\u00e8le."
+    },
+    {
+        "term": "\nApprentissage f\u00e9d\u00e9r\u00e9\n",
+        "definition": "L\u2019apprentissage f\u00e9d\u00e9r\u00e9 est un paradigme d'apprentissage dans lequel plusieurs entit\u00e9s entra\u00eenent collaborativement un mod\u00e8le d\u2019IA sans mise en commun de leurs donn\u00e9es respectives. En pratique, les entit\u00e9s impliqu\u00e9es dans l'apprentissage envoient les mod\u00e8les appris sur leurs donn\u00e9es locales \u00e0 un centre orchestrateur afin de consolider le mod\u00e8le global. Ce paradigme s'oppose \u00e0 l'apprentissage centralis\u00e9 dans lequel toutes les donn\u00e9es sont transmises \u00e0 un serveur central charg\u00e9 d'ex\u00e9cuter l'apprentissage du mod\u00e8le."
+    },
+    {
+        "term": "\nApprentissage non supervis\u00e9\n",
+        "definition": "L\u2019apprentissage non supervis\u00e9 est un proc\u00e9d\u00e9 d\u2019apprentissage automatique dans lequel l\u2019algorithme utilise un jeu de donn\u00e9es brutes et obtient un r\u00e9sultat en se fondant sur la d\u00e9tection de similarit\u00e9s entre certaines de ces donn\u00e9es."
+    },
+    {
+        "term": "\nApprentissage par renforcement\n",
+        "definition": "L\u2019apprentissage par renforcement est un proc\u00e9d\u00e9 d\u2019apprentissage automatique consistant, pour un syst\u00e8me autonome, \u00e0 apprendre les actions \u00e0 r\u00e9aliser, \u00e0 partir d'exp\u00e9riences, de fa\u00e7on \u00e0 optimiser une r\u00e9compense quantitative au cours du temps.\nLe syst\u00e8me est plong\u00e9 au sein d'un environnement, et prend ses d\u00e9cisions en fonction de son \u00e9tat courant. En retour, l'environnement procure une r\u00e9compense, qui peut \u00eatre positive ou n\u00e9gative.\nAu fil des exp\u00e9riences, le syst\u00e8me cherche un comportement d\u00e9cisionnel optimal, en ce sens qu'il maximise la somme des r\u00e9compenses au cours du temps."
+    },
+    {
+        "term": "\nApprentissage par renforcement et r\u00e9troaction humaine\n",
+        "definition": "Approche d\u2019apprentissage par renforcement qui utilise les commentaires et les \u00e9valuations d\u2019utilisateurs humains pour guider l\u2019apprentissage d\u2019un mod\u00e8le d\u2019intelligence artificielle. Ce type d'apprentissage est utilis\u00e9 dans les g\u00e9n\u00e9rateurs de texte fond\u00e9s sur les grands mod\u00e8les de langue."
+    },
+    {
+        "term": "\nApprentissage par transfert \n",
+        "definition": "En apprentissage automatique, l\u2019apprentissage par transfert consiste \u00e0 utiliser les connaissances acquises lors de l\u2019apprentissage d\u2019une t\u00e2che pour am\u00e9liorer les performances sur une t\u00e2che analogue, g\u00e9n\u00e9ralement lorsque les donn\u00e9es d\u2019apprentissage sont limit\u00e9es pour cette nouvelle t\u00e2che.\nPar exemple, un mod\u00e8le d\u2019apprentissage profond entrain\u00e9 sur une grande base de donn\u00e9es images comme ImageNet peut peut \u00eatre adapt\u00e9, par apprentissage par transfert, \u00e0 la d\u00e9tection de tumeurs canc\u00e9reuses dans des images m\u00e9dicales."
+    },
+    {
+        "term": "\nApprentissage profond (deep learning)\n",
+        "definition": "L\u2019apprentissage profond est un proc\u00e9d\u00e9 d\u2019apprentissage automatique utilisant des r\u00e9seaux de neurones poss\u00e9dant plusieurs couches de neurones cach\u00e9es. Ces algorithmes poss\u00e9dant de tr\u00e8s nombreux param\u00e8tres, ils demandent un nombre tr\u00e8s important de donn\u00e9es afin d\u2019\u00eatre entra\u00een\u00e9s."
+    },
+    {
+        "term": "\nApprentissage supervis\u00e9\n",
+        "definition": "L\u2019apprentissage supervis\u00e9 est un proc\u00e9d\u00e9 d\u2019apprentissage automatique dans lequel l\u2019algorithme s\u2019entra\u00eene \u00e0 une t\u00e2che d\u00e9termin\u00e9e en utilisant un jeu de donn\u00e9es assorties chacune d\u2019une annotation indiquant le r\u00e9sultat attendu."
+    },
+    {
+        "term": "\nAttaque par empoisonnement (data poisoning attack)\n",
+        "definition": "Les attaques par empoisonnement visent \u00e0 modifier le comportement du syst\u00e8me d\u2019IA en introduisant des donn\u00e9es corrompues en phase d\u2019entra\u00eenement (ou d\u2019apprentissage). Elles supposent que l\u2019attaquant soit en mesures de soumettre des donn\u00e9es \u00e0 utiliser lors de l\u2019entra\u00eenement du syst\u00e8me d\u2019IA."
+    },
+    {
+        "term": "\nAttaque par exemples contradictoires (adversarial examples attack)\n",
+        "definition": "Les attaques par exemples contradictoires visent \u00e0 soumettre des entr\u00e9es malicieuses ou corrompues au syst\u00e8me d\u2019IA en phase de production.\nExemple : une image qui aurait \u00e9t\u00e9 modifi\u00e9e de fa\u00e7on \u00e0 tromper un classifieur d\u2019image et ainsi attribuer \u00e0 une image de panda, l\u2019\u00e9tiquette de singe.\nCes entr\u00e9es apparaissent, pour un humain, quasiment identiques \u00e0 leurs copies non alt\u00e9r\u00e9es.\n\u00c0 la suite de cette attaque, qui peut \u00eatre vue comme l\u2019\u00e9quivalent d\u2019une illusion d\u2019optique, le comportement du syst\u00e8me d\u2019IA est profond\u00e9ment alt\u00e9r\u00e9."
+    },
+    {
+        "term": "\nAttaque par exfiltration de mod\u00e8le (model evasion attack)\n",
+        "definition": "Les attaques par exfiltration de mod\u00e8le visent \u00e0 permettre le vol d\u2019un mod\u00e8le d\u2019IA et/ou de ses param\u00e8tres et hyperparam\u00e8tres. Le mod\u00e8le constitue un actif de grande valeur pour un syst\u00e8me d\u2019IA."
+    },
+    {
+        "term": "\nAttaque par inf\u00e9rence d'appartenance (membership inference attack)\n",
+        "definition": "Les attaques par inf\u00e9rence d'appartenance visent \u00e0 permettre \u00e0 un attaquant d\u2019acqu\u00e9rir des connaissances sur les donn\u00e9es utilis\u00e9es pour la production du mod\u00e8le d\u2019IA.\nEn pratique, il s\u2019agit de d\u00e9terminer si des donn\u00e9es relatives \u00e0 un individu ont \u00e9t\u00e9 utilis\u00e9es lors de la phase d\u2019entra\u00eenement (ou d\u2019apprentissage). Cette connaissance peut permettre \u00e0 l\u2019attaquant de d\u00e9duire des informations concernant une personne (par exemple d\u00e9terminer s\u2019il est atteint d\u2019une pathologie)."
+    },
+    {
+        "term": "\nAttaque par inversion de mod\u00e8le (model inversion attack)\n",
+        "definition": "Les attaques par inversion visent \u00e0 reconstruire les donn\u00e9es ayant servi pour l\u2019apprentissage du syst\u00e8me. En pratique, les attaques par inversion sont men\u00e9es en soumettant un grand nombre d\u2019entr\u00e9es au syst\u00e8me d\u2019IA et en observant les sorties produites. On utilise, de fa\u00e7on \u00e9quivalente, le terme d\u2019attaque par extraction de donn\u00e9es (data extraction attacks)."
+    },
+    {
+        "term": "\nAugmentation de donn\u00e9es (IA)\n",
+        "definition": "Dans le domaine de l'intelligence artificielle, le processus d\u2019augmentation de donn\u00e9es accro\u00eet la quantit\u00e9 de donn\u00e9es d'entra\u00eenement par la cr\u00e9ation de nouvelles donn\u00e9es \u00e0 partir des donn\u00e9es existantes.\nCette augmentation peut \u00eatre r\u00e9alis\u00e9e par diff\u00e9rentes op\u00e9rations, par exemple, dans le cas d\u2019images, par translation, rotation, ajout de bruit, etc."
+    },
+    {
+        "term": "\nBulle de filtre\n",
+        "definition": "Ph\u00e9nom\u00e8ne principalement observ\u00e9 sur les r\u00e9seaux sociaux o\u00f9 les algorithmes de recommandation \u2013 qui alimentent par exemple les fils d\u2019actualit\u00e9 des publications susceptibles d\u2019int\u00e9resser les utilisateurs\u2013 peuvent parfois ne proposer que des contenus similaires entre eux.\nCe ph\u00e9nom\u00e8ne intervient lorsqu\u2019un algorithme est param\u00e9tr\u00e9 pour ne proposer que des r\u00e9sultats correspondant aux go\u00fbts connus d\u2019un utilisateur, il ne sortira alors jamais des cat\u00e9gories connues."
+    },
+    {
+        "term": "\nCalcul multipartite s\u00e9curis\u00e9\n",
+        "definition": "Le calcul multipartite s\u00e9curis\u00e9 (en anglais, \u00ab secure multi-party computation\u00a0\u00bb) est une branche de la cryptographie permettant \u00e0 plusieurs entit\u00e9s (ou parties) de calculer conjointement une fonction sur leurs donn\u00e9es respectives, sans que celles-ci ne soient divulgu\u00e9es aux autres participants et tout en \u00e9tant assur\u00e9 que le r\u00e9sultat est exact."
+    },
+    {
+        "term": "\nCaract\u00e9ristique (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, la caract\u00e9ristique (feature en anglais) est la variable utilis\u00e9e pour repr\u00e9senter une propri\u00e9t\u00e9 d\u00e9finie d'une entit\u00e9 ou d'un objet.\nIl peut s\u2019agir d\u2019informations relatives \u00e0 la forme, la texture, ou encore \u00e0 la couleur d\u2019une image. Dans le cas d\u2019un fichier audio, \u00e0 la hauteur des sons, au timbre ou au tempo."
+    },
+    {
+        "term": "\nChiffrement homomorphe\n",
+        "definition": "Le chiffrement homomorphe est une technique de cryptographie permettant de r\u00e9aliser des op\u00e9rations sur des donn\u00e9es chiffr\u00e9es sans que celles-ci aient \u00e0 \u00eatre d\u00e9chiffr\u00e9es. Le r\u00e9sultat de ces op\u00e9rations reste sous forme chiffr\u00e9e et ne peut \u00eatre d\u00e9chiffr\u00e9 que par les destinataires autoris\u00e9s (d\u00e9tenant la cl\u00e9 de d\u00e9chiffrement). Cette technique permet ainsi aux participants d\u2019un calcul de garder leurs donn\u00e9es confidentielles au cours d\u2019un calcul."
+    },
+    {
+        "term": "\nClassification (IA)\n",
+        "definition": "La classification est une m\u00e9thode de cat\u00e9gorisation\u00a0qui consiste \u00e0\u00a0attribuer\u00a0une classe ou cat\u00e9gorie \u00e0 une entr\u00e9e qui lui est soumise en fonction de sa proximit\u00e9 \u00e0 la classe en question selon des crit\u00e8res bien choisis.\nExemple\u00a0: un syst\u00e8me d\u2019IA entra\u00een\u00e9 pour la reconnaissance d\u2019images d\u2019animaux utilise des techniques de classification\u00a0: oiseaux, chiens, poissons..."
+    },
+    {
+        "term": "\nConfidentialit\u00e9 diff\u00e9rentielle\n",
+        "definition": "La confidentialit\u00e9 diff\u00e9rentielle d\u00e9signe une propri\u00e9t\u00e9 math\u00e9matique assurant que la pr\u00e9sence ou l\u2019absence d\u2019un individu dans une base de donn\u00e9es n\u2019affecte pas le r\u00e9sultat obtenu par un processus d\u2019anonymisation appliqu\u00e9 \u00e0 celle-ci. Pour l\u2019atteindre, l\u2019ajout d\u2019un bruit sp\u00e9cifique est g\u00e9n\u00e9ralement n\u00e9cessaire (c\u2019est-\u00e0-dire une perturbation des donn\u00e9es). Cela implique de d\u00e9t\u00e9riorer l\u2019utilit\u00e9 et la qualit\u00e9 des donn\u00e9es."
+    },
+    {
+        "term": "\nContr\u00f4le it\u00e9ratif de l\u2019apprentissage\n",
+        "definition": "Cette technique vise \u00e0 \u00e9tudier l\u2019impact de chaque donn\u00e9e sur le fonctionnement du mod\u00e8le. On parle \u00e9galement de d\u00e9fense RONI (pour Reject On Negative Impact en anglais) permettant de supprimer du jeu d\u2019apprentissage les donn\u00e9es ayant un impact n\u00e9gatif sur la pr\u00e9cision du mod\u00e8le."
+    },
+    {
+        "term": "\nCouche de neurones\n",
+        "definition": "Organisation des neurones dans un r\u00e9seau. Il n'y a pas de connexion entre les neurones d'une m\u00eame couche\u00a0: les connexions ne se font qu'avec les neurones de la couche suivante.\nG\u00e9n\u00e9ralement, chaque neurone d'une couche est li\u00e9 avec tous les neurones de la couche en aval et celle-ci uniquement.\nOn appelle couche d'entr\u00e9e l\u2019ensemble des neurones d'entr\u00e9e et couche de sortie l\u2019ensemble des neurones de sortie.\nLes couches interm\u00e9diaires n'ont pas de contact avec l'ext\u00e9rieur et sont donc nomm\u00e9es couches cach\u00e9es."
+    },
+    {
+        "term": "\nCrit\u00e8re d\u2019arr\u00eat (IA)\n",
+        "definition": "\u00c9l\u00e9ment de contr\u00f4le de l\u2019\u00e9volution d\u2019un algorithme d\u2019apprentissage automatique qui permet, s\u2019il est atteint, d\u2019arr\u00eater le processus it\u00e9ratif.\nIl peut prendre diff\u00e9rentes formes\u00a0: la fonction de perte (qui permet de calculer l\u2019erreur de pr\u00e9diction) a suffisamment d\u00e9cru, le nombre d\u2019it\u00e9rations fix\u00e9 est atteint, etc."
+    },
+    {
+        "term": "\nD\u00e9rive des donn\u00e9es\n",
+        "definition": "Variation des donn\u00e9es utilis\u00e9es \u00e0 l'\u00e9tape de production par rapport aux donn\u00e9es qui ont \u00e9t\u00e9 utilis\u00e9es pour tester et valider le mod\u00e8le avant son d\u00e9ploiement. Plusieurs facteurs peuvent entra\u00eener cette d\u00e9rive\u00a0: des modifications de processus en amont, des probl\u00e8mes de qualit\u00e9 des donn\u00e9es, de soudains changements dans les donn\u00e9es, etc."
+    },
+    {
+        "term": "\nD\u00e9rive du mod\u00e8le\n",
+        "definition": "La d\u00e9rive du mod\u00e8le est la perte d\u2019ad\u00e9quation entre un mod\u00e8le et la t\u00e2che qu\u2019il doit accomplir. Cette d\u00e9rive peut r\u00e9sulter d\u2019un r\u00e9apprentissage du mod\u00e8le ou d\u2019une \u00e9volution de l\u2019environnement dans lequel il s\u2019applique (domaine d\u2019emploi)."
+    },
+    {
+        "term": "\nD\u00e9sapprentissage machine\n",
+        "definition": "Le d\u00e9sapprentissage machine est une technique li\u00e9e \u00e0 l\u2019apprentissage automatique visant \u00e0 faire dispara\u00eetre une information des connaissances apprises par un mod\u00e8le d\u2019IA. L\u2019objectif de ces techniques est de supprimer une information contenue dans un mod\u00e8le sans avoir \u00e0 r\u00e9-entra\u00eener ce dernier.\nPour en savoir plus"
+    },
+    {
+        "term": "\nDomaine d\u2019emploi (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, le domaine d\u2019emploi est la description de l\u2019environnement et de la population vis\u00e9e par le proc\u00e9d\u00e9 d\u2019apprentissage automatique."
+    },
+    {
+        "term": "\nDonn\u00e9e brute (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, une donn\u00e9e brute est une donn\u00e9e n\u2019ayant subi aucune transformation depuis son observation initiale."
+    },
+    {
+        "term": "\nDonn\u00e9e de sortie (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, une donn\u00e9e de sortie est une valeur repr\u00e9sentant tout ou partie de l\u2019op\u00e9ration effectu\u00e9e par le syst\u00e8me d\u2019IA \u00e0 partir des donn\u00e9es d\u2019entr\u00e9e."
+    },
+    {
+        "term": "\nDonn\u00e9e d\u2019entr\u00e9e (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, une donn\u00e9e d\u2019entr\u00e9e est une donn\u00e9e utilis\u00e9e pour l\u2019apprentissage automatique ou la prise de d\u00e9cision du syst\u00e8me d\u2019IA (en phase de production)."
+    },
+    {
+        "term": "\n\u00c9chantillon (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, l\u2019\u00e9chantillon est une fraction repr\u00e9sentative d'une population ou d'un univers statistique."
+    },
+    {
+        "term": "\nEnsemble de test (IA)\n",
+        "definition": "Jeu de donn\u00e9es utilis\u00e9 lors de la phase de test."
+    },
+    {
+        "term": "\nEnsemble de validation (IA)\n",
+        "definition": "Jeu de donn\u00e9es utilis\u00e9 lors de la phase de validation."
+    },
+    {
+        "term": "\nEnsemble d\u2019entra\u00eenement/d\u2019apprentissage\n",
+        "definition": "Jeu de donn\u00e9es (texte, sons, images, listes, etc.) utilis\u00e9 lors de la phase d\u2019entrainement / d\u2019apprentissage\u00a0: le syst\u00e8me s\u2019entra\u00eene sur ces donn\u00e9es pour effectuer la t\u00e2che attendue de lui."
+    },
+    {
+        "term": "\nEntra\u00eenement (ou apprentissage)\n",
+        "definition": "L\u2019entra\u00eenement est le processus de l\u2019apprentissage automatique pendant lequel le syst\u00e8me d\u2019intelligence artificielle construit un mod\u00e8le \u00e0 partir de donn\u00e9es."
+    },
+    {
+        "term": "\nEnvironnement d\u2019ex\u00e9cution de confiance\n",
+        "definition": "Les Trusted Execution Environnement, ou environnement d\u2019ex\u00e9cution de confiance, sont des zones s\u00e9curis\u00e9es et isol\u00e9es des autres environnements d\u2019ex\u00e9cution situ\u00e9s dans un processeur. Les TEE garantissent que des donn\u00e9es confidentielles restent stock\u00e9es, trait\u00e9es et prot\u00e9g\u00e9es dans un environnement de confiance.\nPour en savoir plus"
+    },
+    {
+        "term": "\nEstimation bay\u00e9sienne\n",
+        "definition": "L\u2019estimation ou inf\u00e9rence bay\u00e9sienne s\u2019appuie sur un th\u00e9or\u00e8me \u00e9nonc\u00e9 par le math\u00e9maticien Thomas Bayes. Ce th\u00e9or\u00e8me donne une m\u00e9thode pour calculer la probabilit\u00e9 d\u2019un ph\u00e9nom\u00e8ne gr\u00e2ce \u00e0 la connaissance de certaines informations. L\u2019estimation bay\u00e9sienne est donc la m\u00e9thode qui s\u2019appuie sur ce raisonnement.\nExemple : sachant d\u2019une part que mes chaussures sont peu adh\u00e9rentes, et d\u2019autre part qu\u2019il a plu, le risque de glisser lors de mon trajet au travail ce matin est \u00e9lev\u00e9."
+    },
+    {
+        "term": "\nEstimation de poses\n",
+        "definition": "Technique de vision par ordinateur (\u00ab\u00a0computer vision\u00a0\u00bb) qui permet de d\u00e9tecter la posture d\u2019une personne sur une image ou une vid\u00e9o, afin d\u2019en extraire un mod\u00e8le biom\u00e9canique."
+    },
+    {
+        "term": "\nExplicabilit\u00e9 (IA)\n",
+        "definition": "Dans le domaine de l'intelligence artificielle, l\u2019explicabilit\u00e9 est la capacit\u00e9 de mettre en relation et de rendre compr\u00e9hensible les \u00e9l\u00e9ments pris en compte par le syst\u00e8me d\u2019IA pour la production d\u2019un r\u00e9sultat.\nIl peut s\u2019agir, par exemple, des variables d\u2019entr\u00e9e et de leurs cons\u00e9quences sur la pr\u00e9vision d\u2019un score, et ainsi sur la d\u00e9cision.\nLes explications doivent \u00eatre adapt\u00e9es au niveau de compr\u00e9hension de la personne auxquelles elles sont destin\u00e9es."
+    },
+    {
+        "term": "\nExtraction de caract\u00e9ristiques (feature extraction)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, l\u2019extraction de caract\u00e9ristiques est l\u2019\u00e9tape au cours de laquelle sont induites depuis des donn\u00e9es brutes (fichier son, image, document textuel, tableau num\u00e9rique, etc.) des caract\u00e9ristiques (features) sur lesquelles le syst\u00e8me d\u2019IA doit se reposer pour effectuer la t\u00e2che pour laquelle il est programm\u00e9.\nLa d\u00e9finition de ces caract\u00e9ristiques et leur nature discriminante sont essentielles."
+    },
+    {
+        "term": "\nFew shot learning\n",
+        "definition": "M\u00e9thode d\u2019apprentissage automatique o\u00f9 un mod\u00e8le est entra\u00een\u00e9 \u00e0 classer des items en fonction de leur similarit\u00e9 \u00e0 partir de tr\u00e8s peu de donn\u00e9es."
+    },
+    {
+        "term": "\nFonction de perte ou de co\u00fbt (loss function)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, la fonction de perte ou de co\u00fbt est la quantification de l\u2019\u00e9cart entre les pr\u00e9visions du mod\u00e8le et les observations r\u00e9elles du jeu de donn\u00e9e utilis\u00e9 pendant l\u2019entra\u00eenement.\nLa phase d\u2019entra\u00eenement vise \u00e0 trouver les param\u00e8tres du mod\u00e8le qui permettront de minimiser cette fonction."
+    },
+    {
+        "term": "\nFonction d\u2019activation\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, la fonction d\u2019activation peut \u00eatre vu comme l\u2019\u00e9quivalent du \u00ab\u00a0potentiel d'activation \u00bb qu\u2019on retrouve dans les neurones biologiques.\nCette fonction d\u00e9termine si un neurone artificiel doit \u00eatre activ\u00e9 ou pas et, dans le premier cas, le degr\u00e9 de cette activation.\nIl existe plusieurs fonctions apportant chacune des comportements diff\u00e9rents (sigmo\u00efde, tangente hyperbolique, ReLU, etc.)."
+    },
+    {
+        "term": "\nFor\u00eats al\u00e9atoires (random forests)\n",
+        "definition": "Les for\u00eats al\u00e9atoires sont une m\u00e9thode d'apprentissage automatique ensembliste, se basant sur de multiples arbres de d\u00e9cision entra\u00een\u00e9s sur des sous-ensembles de donn\u00e9es l\u00e9g\u00e8rement diff\u00e9rents."
+    },
+    {
+        "term": "\nGabarit facial\n",
+        "definition": "En mati\u00e8re de reconnaissance faciale, un \u00ab gabarit\u00a0\u00bb d\u00e9signe les mesures qui sont m\u00e9moris\u00e9es lors de l'enregistrement des caract\u00e9ristiques d\u2019un visage. Les donn\u00e9es extraites pour constituer ce gabarit sont des donn\u00e9es biom\u00e9triques au sens du RGPD (article 4-14)."
+    },
+    {
+        "term": "\nGradient\n",
+        "definition": "Le gradient est, en math\u00e9matiques, un vecteur repr\u00e9sentant la variation d\u2019une fonction au voisinage d\u2019un point donn\u00e9 (en pratique, lorsqu\u2019on dessine une courbe, plus le gradient est \u00e9lev\u00e9, plus la \u00ab\u00a0pente\u00a0\u00bb de la courbe est forte).\nAppliqu\u00e9 au cas de l\u2019apprentissage d\u2019un mod\u00e8le d\u2019IA, le gradient est utilis\u00e9 pour mettre en \u0153uvre l\u2019algorithme de descente de gradient (ou algorithme de la plus forte pente). Ce dernier permet d\u2019obtenir un r\u00e9sultat optimal selon certains crit\u00e8res (par exemple\u00a0: minimisation d\u2019une fonction de perte), de mani\u00e8re it\u00e9rative, c\u2019est-\u00e0-dire par une succession d\u2019\u00e9tapes.\nDiff\u00e9rentes strat\u00e9gies existent pour r\u00e9aliser la descente de gradient qui mobilisent des ensembles de donn\u00e9es diff\u00e9rents (batch gradient descent, mini-batch gradient descent, stochastic gradient descent, etc.)."
+    },
+    {
+        "term": "\nHyperparam\u00e8tre\n",
+        "definition": "\u00c9l\u00e9ment ind\u00e9pendant de l\u2019apprentissage tels que le nombre de n\u0153uds et la taille des couches cach\u00e9es du r\u00e9seau de neurones, l\u2019initialisation des poids, le coefficient d\u2019apprentissage, la fonction d\u2019activation, etc."
+    },
+    {
+        "term": "\nIntelligence artificielle\n",
+        "definition": "L\u2019intelligence artificielle est un proc\u00e9d\u00e9 logique et automatis\u00e9 reposant g\u00e9n\u00e9ralement sur un algorithme et en mesure de r\u00e9aliser des t\u00e2ches bien d\u00e9finies. Pour le Parlement europ\u00e9en, constitue une intelligence artificielle tout outil utilis\u00e9 par une machine afin de \u00ab\u00a0reproduire des comportements li\u00e9s aux humains, tels que le raisonnement, la planification et la cr\u00e9ativit\u00e9\u00a0\u00bb. Plus pr\u00e9cis\u00e9ment, la Commission europ\u00e9enne consid\u00e8re que l\u2019IA regroupe\u00a0:"
+    },
+    {
+        "term": "\nMod\u00e8le (IA)\n",
+        "definition": "Le mod\u00e8le d'IA est la construction math\u00e9matique g\u00e9n\u00e9rant une d\u00e9duction ou une pr\u00e9diction \u00e0 partir de donn\u00e9es d\u2019entr\u00e9e. Le mod\u00e8le est estim\u00e9 \u00e0 partir de donn\u00e9es annot\u00e9es lors de la phase d\u2019apprentissage (ou d\u2019entra\u00eenement) du syst\u00e8me d\u2019IA."
+    },
+    {
+        "term": "\nMod\u00e8le de langage\n",
+        "definition": "Mod\u00e8le statistique de la distribution d\u2019unit\u00e9 linguistiques (par exemple\u00a0: lettres, phon\u00e8mes, mots) dans une langue naturelle. Un mod\u00e8le de langage peut par exemple pr\u00e9dire le mot suivant dans une s\u00e9quence de mots. On parle de mod\u00e8les de langage de grande taille ou \u00ab\u00a0Large Language Models \u00bb\u00a0(LLM) en anglais pour les mod\u00e8les poss\u00e9dant un grand nombre de param\u00e8tres (g\u00e9n\u00e9ralement de l'ordre du milliard de poids ou plus) comme GPT-3, BLOOM, Megatron NLG, Llama ou encore PaLM."
+    },
+    {
+        "term": "\nMod\u00e8le discriminatif\n",
+        "definition": "Mod\u00e8le capable de r\u00e9aliser une pr\u00e9diction quant \u00e0 l'appartenance \u00e0 une classe pour des donn\u00e9es nouvelles sur la base d'un apprentissage r\u00e9alis\u00e9 auparavant sur un jeu de donn\u00e9es d\u2019entra\u00eenement."
+    },
+    {
+        "term": "\nMod\u00e8le g\u00e9n\u00e9ratif\n",
+        "definition": "Mod\u00e8le d\u00e9fini par opposition \u00e0 un mod\u00e8le discriminatif. Il permet \u00e0 la fois de g\u00e9n\u00e9rer de nouveaux exemples \u00e0 partir des donn\u00e9es d'entra\u00eenement et d'\u00e9valuer la probabilit\u00e9 qu'un nouvel exemple provienne ou ait \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9 \u00e0 partir des donn\u00e9es d'entra\u00eenement."
+    },
+    {
+        "term": "\nNeurone artificiel\n",
+        "definition": "Un neurone artificiel fonctionne d\u2019une mani\u00e8re inspir\u00e9e de celle d\u2019un neurone biologique\u00a0: un n\u0153ud d'un r\u00e9seau de plusieurs neurones re\u00e7oit g\u00e9n\u00e9ralement plusieurs valeurs d'entr\u00e9e et g\u00e9n\u00e8re une valeur de sortie.\nLe neurone calcule la valeur de sortie en appliquant une fonction d'activation \u00e0 une somme pond\u00e9r\u00e9e des valeurs d'entr\u00e9e."
+    },
+    {
+        "term": "\nOntologie (IA)\n",
+        "definition": "En informatique, une ontologie est la mod\u00e9lisation d\u2019un ensemble de donn\u00e9es par des concepts et relations issues de connaissances dans un domaine donn\u00e9 (par exemple, g\u00e9ographie, m\u00e9decine, agriculture, etc.)."
+    },
+    {
+        "term": "\nParam\u00e8tre (IA)\n",
+        "definition": "Dans le domaine de l'intelligence artificielle, le param\u00e8tre est la propri\u00e9t\u00e9 apprise des donn\u00e9es utilis\u00e9es pour l\u2019entra\u00eenement (par exemple le poids de chaque neurone d\u2019un r\u00e9seau)."
+    },
+    {
+        "term": "\nPartitionnement de donn\u00e9es\n",
+        "definition": "Le partitionnement de donn\u00e9es (clustering en anglais) est une m\u00e9thode ayant pour but de diviser un ensemble de donn\u00e9es en diff\u00e9rents sous-ensembles homog\u00e8nes, c\u2019est-\u00e0-dire partageant des caract\u00e9ristiques communes.\nCes caract\u00e9ristiques reposent sur des crit\u00e8res de proximit\u00e9 d\u00e9finis en introduisant la notion de distance entre les objets."
+    },
+    {
+        "term": "\nReconnaissance d\u2019entit\u00e9s nomm\u00e9es\n",
+        "definition": "En anglais \u00ab Named-entity recognition\u00a0\u00bb (NER), sous-t\u00e2che d\u2019extraction d\u2019informations qui cherche \u00e0 localiser et classifier les mentions d\u2019entit\u00e9s nomm\u00e9es dans du texte non structur\u00e9 en cat\u00e9gories pr\u00e9d\u00e9finies, emplacements, codes m\u00e9dicaux, expressions de temps, quantit\u00e9s, valeurs mon\u00e9taires, pourcentages, etc."
+    },
+    {
+        "term": "\nR\u00e9duction de dimension ou dimensionnalit\u00e9\n",
+        "definition": "M\u00e9thode permettant de diminuer la quantit\u00e9 d\u2019information en ne conservant que le strict n\u00e9cessaire, permettant ainsi d'obtenir plus d'efficacit\u00e9 en termes de r\u00e9sultats et de temps d'analyse.\nCette r\u00e9duction de l\u2019information utile peut se faire par s\u00e9lection des caract\u00e9ristiques les plus pertinentes ou par cr\u00e9ation de nouvelles caract\u00e9ristiques plus appropri\u00e9es que celles de d\u00e9part."
+    },
+    {
+        "term": "\nR\u00e9gression\n",
+        "definition": "La r\u00e9gression est un ensemble de m\u00e9thodes d\u2019analyse statistique permettant d\u2019approcher une variable \u00e0 partir d\u2019autres qui lui sont corr\u00e9l\u00e9es. En apprentissage automatique, on distingue les probl\u00e8mes de r\u00e9gression des probl\u00e8mes de classification. Ainsi, on consid\u00e8re que les probl\u00e8mes de pr\u00e9diction d'une variable quantitative sont des probl\u00e8mes de r\u00e9gression tandis que les probl\u00e8mes de pr\u00e9diction d'une variable qualitative sont des probl\u00e8mes de classification."
+    },
+    {
+        "term": "\nR\u00e9seau de neurones artificiels (artificial neural network)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, un r\u00e9seau de neurones artificiels est un ensemble organis\u00e9 de neurones interconnect\u00e9s permettant la r\u00e9solution de probl\u00e8mes complexes tels que la vision par ordinateur ou le traitement du langage naturel.\nIl s\u2019agit d\u2019un type particulier d\u2019algorithmes d\u2019apprentissage automatique (comme les machines \u00e0 vecteur de support (SVM en anglais), arbres de d\u00e9cision, K plus proches voisins, etc.) caract\u00e9ris\u00e9s par un grand nombre de couches de neurones, dont les coefficients de pond\u00e9ration sont ajust\u00e9s au cours d\u2019une phase d\u2019entra\u00eenement (apprentissage profond).\nIl existe de nombreux type de r\u00e9seaux de neurones artificiels\u00a0tels que les r\u00e9seaux de neurones r\u00e9currents, les auto-encodeurs, les r\u00e9seaux transformeurs ou encore les r\u00e9seaux antagonistes g\u00e9n\u00e9ratifs (generative adversarial networks)."
+    },
+    {
+        "term": "\nRobustesse (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, la r\u00e9silience est la capacit\u00e9 du syst\u00e8me \u00e0 maintenir sa conformit\u00e9 \u00e0 des exigences de performance et/ou de s\u00e9curit\u00e9 en pr\u00e9sence de donn\u00e9es d\u2019entr\u00e9e ext\u00e9rieures \u00e0 son domaine d\u2019emploi (par exemple en raison d\u2019un d\u00e9faut sur un capteur)."
+    },
+    {
+        "term": "\nSegmentation des donn\u00e9es\n",
+        "definition": "La segmentation des donn\u00e9es est une m\u00e9thode permettant la division d\u2019un corpus de donn\u00e9es en plusieurs ensembles (par exemple d\u2019entra\u00eenement, de validation et de test), soit \u00e0 partir de crit\u00e8res objectifs (date, \u00e2ge, etc.) soit de mani\u00e8re al\u00e9atoire."
+    },
+    {
+        "term": "\nSurapprentissage (overfitting)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, le surapprentissage entra\u00eene un mod\u00e8le qui correspond trop pr\u00e9cis\u00e9ment \u00e0 une collection particuli\u00e8re de donn\u00e9es utilis\u00e9es pour l\u2019entrainement. Cette analyse risque de ne pas correspondre \u00e0 des donn\u00e9es utilis\u00e9es en phase de production et donc de ne pas permettre une utilisation fiable du syst\u00e8me d\u2019IA."
+    },
+    {
+        "term": "\nSyst\u00e8me d\u2019IA \u00e0 usage g\u00e9n\u00e9ral\n",
+        "definition": "Un syst\u00e8me d\u2019IA \u00e0 usage g\u00e9n\u00e9ral peut \u00eatre utilis\u00e9 et adapt\u00e9 \u00e0 un large \u00e9ventail d'applications pour lesquelles il n'a pas \u00e9t\u00e9 con\u00e7u intentionnellement et sp\u00e9cifiquement. Un tel syst\u00e8me est destin\u00e9 \u00e0 ex\u00e9cuter des fonctions g\u00e9n\u00e9riques telles que la reconnaissance d'images et de paroles, la g\u00e9n\u00e9ration d'images audio et vid\u00e9o, la d\u00e9tection de formes, la r\u00e9ponse \u00e0 des questions, la traduction, etc."
+    },
+    {
+        "term": "\nTaux d\u2019apprentissage (learning rate)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, le taux d\u2019apprentissage est le facteur multiplicatif appliqu\u00e9 au gradient. \u00c0 chaque it\u00e9ration, l'algorithme de descente de gradient multiplie le taux d'apprentissage par le gradient.\nLe taux d'apprentissage est un hyperparam\u00e8tre qui joue sur la rapidit\u00e9 de la descente de gradient\u00a0: un nombre d\u2019it\u00e9rations plus ou moins important est n\u00e9cessaire avant que l\u2019algorithme ne converge, c\u2019est-\u00e0-dire qu\u2019un apprentissage optimal du r\u00e9seau soit r\u00e9alis\u00e9."
+    },
+    {
+        "term": "\nTest (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, le test est un processus consistant \u00e0 \u00e9valuer les performances d\u2019un syst\u00e8me et \u00e0 rechercher des erreurs li\u00e9es \u00e0 l\u2019ex\u00e9cution d\u2019un algorithme ou d\u2019un programme en s\u2019appuyant sur des jeux de donn\u00e9es d\u2019entr\u00e9e n\u2019ayant pas \u00e9t\u00e9 utilis\u00e9s lors de la phase d\u2019entra\u00eenement."
+    },
+    {
+        "term": "\nTraitement automatique de la parole\n",
+        "definition": "Ensemble de disciplines dont l'objectif est la captation, la transmission, l'identification et la synth\u00e8se de la parole. Ces disciplines rassemblent notamment la reconnaissance de la parole, la synth\u00e8se de la parole, l'identification du locuteur ou encore la v\u00e9rification du locuteur."
+    },
+    {
+        "term": "\nTraitement automatique du langage naturel (natural language processing ou NLP)\n",
+        "definition": "Le traitement automatique du langage naturel est un domaine multidisciplinaire impliquant la linguistique, l'informatique et l'intelligence artificielle.\nIl vise \u00e0 cr\u00e9er des outils de capable d\u2019interpr\u00e9ter et de synth\u00e9tiser du texte pour diverses applications."
+    },
+    {
+        "term": "\nValidation (IA)\n",
+        "definition": "Dans le domaine de l\u2019intelligence artificielle, la validation est un processus consistant \u00e0 exp\u00e9rimenter, observer et optimiser (en modifiant les hyperparam\u00e8tres notamment) le comportement du syst\u00e8me lors de son ex\u00e9cution. Elle permet de s'assurer, dans le domaine d\u2019emploi, de l'ad\u00e9quation des donn\u00e9es de sortie avec les r\u00e9sultats attendus."
+    },
+    {
+        "term": "\nVision par ordinateur (computer vision)\n",
+        "definition": "La vision par ordinateur est une branche de l'intelligence artificielle dont le principal but est de permettre \u00e0 une machine d'analyser et traiter une ou plusieurs images ou vid\u00e9os prises par un syst\u00e8me d'acquisition."
+    }
+]
