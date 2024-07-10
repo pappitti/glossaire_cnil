@@ -1,2 +1,1 @@
-# glossaire_cnil
-extraction du glossaire Ai de la CNIL
+N'oubliez pas de scrapper de facon responsable!
